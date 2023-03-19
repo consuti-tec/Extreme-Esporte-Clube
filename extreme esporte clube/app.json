@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Extreme Esporte Clube",
+    "slug": "esporteclubeextreme",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FCAC5B"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#FCAC5B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FCAC5B",
+        "backgroundImage": "./assets/icon.png"
+      },
+      "package": "com.sporti.esporteclubeextreme",
+      "permissions": [],
+      "versionCode": 3
+    },
+    "ios": {
+      "buildNumber": "3",
+      "bundleIdentifier": "com.sporti.esporteclubeextreme",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "499e5731-28e6-4857-a45d-5cb193cff0d8"
+      }
+    }
+  }
+}
